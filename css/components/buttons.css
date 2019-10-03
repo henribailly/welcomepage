@@ -1,0 +1,21 @@
+#intro{
+	padding: 0px 0px 20px 0px;
+}
+#cta{
+	background: #2B2B5B;
+	padding : 20px 40px;
+	color: white;
+	font-family: 'Nunito';
+	border-radius: 3px ;
+}
+
+
+
+
+#clickicons li{
+	display: inline ; 
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	list-style: none;
+	justify-content: space-between;
+}

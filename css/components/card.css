@@ -1,0 +1,30 @@
+.card{
+	margin: 20px;
+	padding: 40px 20px; 
+	background-color: #B7CECE
+}
+
+.column {
+	background-color:rgba(186, 206, 195, 0.8);
+	padding: 10px 20px;
+	margin: 10px; 
+
+}
+
+
+#hobbies{
+background-image: url("../../images/backgroundhobbies.jpg");
+background-position: center;
+background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../../images/backgroundhobbies.jpg");
+}
+
+#hobbiestxt {
+	color: white;
+	
+}
+
+#blocxp{
+background-image: url("../../images/backgroundXP.jpg");
+background-position: center center;
+color: white;
+}

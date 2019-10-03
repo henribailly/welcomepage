@@ -1,0 +1,79 @@
+@import url("components/avatar.css");
+@import url("components/card.css");
+@import url("components/buttons.css");
+
+
+body {
+  background-color: white;
+  text-align:center;}
+
+.container{
+	background-color: white;
+	width: 700px;
+	margin: 20px auto;
+}
+/* Responsive Design things */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+i{
+	font-size: 32px;
+	color :  #2B2B5B;
+}
+p {
+	text-align: center;
+	color: rgb(100, 100, 100);
+	font-family: 'Nunito', sans-serif;
+	text-justify: auto;
+	font-size:15px;
+}
+
+h1,h2,ul{
+	font-family: 'Archivo Narrow', sans-serif; 
+}
+h3{
+	text-align: center;
+	font-family: 'Mansalva', cursive;
+	color: rgb(120, 120, 120);
+}
+
+h2{
+	color : #07393C;
+}
+
+h1{
+	letter-spacing: 2px;
+	color: #2B2B5B;
+	font-size: 40px;
+}
+
+a{
+	text-decoration: none;
+	color: #2B2B5B;
+}
+ul {
+	padding-inline-start: 0px;
+}
+
+
+
+
+
+
